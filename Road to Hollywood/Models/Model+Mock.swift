@@ -42,3 +42,7 @@ enum MockDocumentActivitiesError: Error {
 extension DocumentModel {
     static let mock = DocumentModel(id: "01349514-345o238450", url: URL(string: "https://www.google.com")!, name: "Road to Hollywood")
 }
+
+extension UserModel {
+    static let mockTester1 = UserModel(id: "0", email: "mock@hollywood.com", name: "Mock Tester")
+}

@@ -9,8 +9,8 @@ import SwiftUI
 import GoogleSignIn
 
 @main
-struct RoadtoHollywoodApp: App {
-    @StateObject var diContainer = DependencyInjectionContainer(authControllerType: MockAuthenticationController.self, documentChangeLogRepositoryType: MockDocumentActivityRepository.self)
+struct RoadToHollywoodApp: App {
+    @StateObject var diContainer = DependencyInjectionContainer(authControllerType: GoogleAuthenticationController.self, documentChangeLogRepositoryType: MockDocumentActivityRepository.self)
 
     var body: some Scene {
         WindowGroup {

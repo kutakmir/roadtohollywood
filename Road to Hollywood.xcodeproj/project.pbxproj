@@ -79,6 +79,7 @@
 		CE45B1D2274BDE6D00F9836F /* DocumentActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentActivityViewModel.swift; sourceTree = "<group>"; };
 		CE45B1D4274BDE8300F9836F /* DocumentSummaryActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSummaryActivityViewModel.swift; sourceTree = "<group>"; };
 		CE45B1D8274BE24E00F9836F /* DocumentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDetailView.swift; sourceTree = "<group>"; };
+		CE45B1DA274BEA1C00F9836F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CEBC17022748DDE800D1DD3C /* GoogleAuthenticationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticationController.swift; sourceTree = "<group>"; };
 		CEBC17042748DE3900D1DD3C /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CEBC17062748DE5000D1DD3C /* GoogleSignInButtonWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInButtonWrapper.swift; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				CEBC170E2748E29900D1DD3C /* Road-to-Hollywood-Info.plist */,
+				CE45B1DA274BEA1C00F9836F /* README.md */,
 				CE3C7BE327482AA0004CA341 /* RoadtoHollywoodApp.swift */,
 				CE45B1C2274BC0BB00F9836F /* DependencyInjectionContainer.swift */,
 				CE45B1D7274BE06D00F9836F /* Controllers */,

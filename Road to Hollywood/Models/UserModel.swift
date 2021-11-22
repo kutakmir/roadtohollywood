@@ -21,7 +21,3 @@ extension UserModel {
         self.name = googleUser.profile?.name
     }
 }
-
-extension UserModel {
-    static let mockTester1 = UserModel(id: "0", email: "mock@hollywood.com", name: "Mock Tester")
-}
