@@ -19,35 +19,35 @@ import GoogleSignIn
 
 /// A wrapper for `GIDSignInButton` so that it can be used in SwiftUI.
 struct GoogleSignInButtonWrapper: UIViewRepresentable {
-  let handler: () -> Void
+    let handler: () -> Void
 
-  init(handler: @escaping () -> Void) {
-    self.handler = handler
-  }
+    init(handler: @escaping () -> Void) {
+        self.handler = handler
+    }
 
-  func makeCoordinator() -> Coordinator {
-    return Coordinator()
-  }
+    func makeCoordinator() -> Coordinator {
+        return Coordinator()
+    }
 
-  func makeUIView(context: Context) -> GIDSignInButton {
-    let signInButton = GIDSignInButton()
-    signInButton.addTarget(context.coordinator,
-                           action: #selector(Coordinator.callHandler),
-                           for: .touchUpInside)
-    return signInButton
-  }
+    func makeUIView(context: Context) -> GIDSignInButton {
+        let signInButton = GIDSignInButton()
+        signInButton.addTarget(context.coordinator,
+                               action: #selector(Coordinator.callHandler),
+                               for: .touchUpInside)
+        return signInButton
+    }
 
-  func updateUIView(_ uiView: UIViewType, context: Context) {
-    context.coordinator.handler = handler 
-  }
+    func updateUIView(_ uiView: UIViewType, context: Context) {
+        context.coordinator.handler = handler
+    }
 }
 
 extension GoogleSignInButtonWrapper {
-  class Coordinator {
-    var handler: (() -> Void)?
+    class Coordinator {
+        var handler: (() -> Void)?
 
-    @objc func callHandler() {
-      handler?()
+        @objc func callHandler() {
+            handler?()
+        }
     }
-  }
 }

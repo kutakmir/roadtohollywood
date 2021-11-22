@@ -14,24 +14,23 @@
 		CE3C7BF527482AA3004CA341 /* Road_to_HollywoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C7BF427482AA3004CA341 /* Road_to_HollywoodTests.swift */; };
 		CE3C7BFF27482AA3004CA341 /* Road_to_HollywoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C7BFE27482AA3004CA341 /* Road_to_HollywoodUITests.swift */; };
 		CE3C7C0127482AA3004CA341 /* Road_to_HollywoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C7C0027482AA3004CA341 /* Road_to_HollywoodUITestsLaunchTests.swift */; };
-		CE3C7C1527482B8A004CA341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C7C1427482B8A004CA341 /* AppDelegate.swift */; };
 		CE3C7C1827482C21004CA341 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = CE3C7C1727482C21004CA341 /* GoogleSignIn */; };
 		CE45B1B0274B917700F9836F /* DocumentChangeLogRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1AF274B917700F9836F /* DocumentChangeLogRepository.swift */; };
 		CE45B1B2274B9E2F00F9836F /* DocumentRevisionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1B1274B9E2F00F9836F /* DocumentRevisionsResponse.swift */; };
-		CE45B1BA274BABB100F9836F /* DocumentRevisionsResponse+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1B9274BABB100F9836F /* DocumentRevisionsResponse+Mock.swift */; };
-		CEBC17032748DDE800D1DD3C /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC17022748DDE800D1DD3C /* AuthenticationViewModel.swift */; };
+		CE45B1BA274BABB100F9836F /* Model+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1B9274BABB100F9836F /* Model+Mock.swift */; };
+		CE45B1BC274BB73700F9836F /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1BB274BB73700F9836F /* AuthenticationViewModel.swift */; };
+		CE45B1BE274BB82B00F9836F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1BD274BB82B00F9836F /* UserModel.swift */; };
+		CE45B1C1274BC0AB00F9836F /* MockAuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1C0274BC0AB00F9836F /* MockAuthenticationViewModel.swift */; };
+		CE45B1C3274BC0BB00F9836F /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1C2274BC0BB00F9836F /* DependencyInjection.swift */; };
+		CE45B1C5274BC0F600F9836F /* MockDocumentChangeLogRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1C4274BC0F600F9836F /* MockDocumentChangeLogRepository.swift */; };
+		CE45B1C7274BC10900F9836F /* GoogleDriveDocumentChangeLogRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1C6274BC10900F9836F /* GoogleDriveDocumentChangeLogRepository.swift */; };
+		CE45B1CB274BC30800F9836F /* DocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1CA274BC30800F9836F /* DocumentModel.swift */; };
+		CEBC17032748DDE800D1DD3C /* GoogleAuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC17022748DDE800D1DD3C /* GoogleAuthenticationViewModel.swift */; };
 		CEBC17052748DE3900D1DD3C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC17042748DE3900D1DD3C /* SignInView.swift */; };
 		CEBC17072748DE5000D1DD3C /* GoogleSignInButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC17062748DE5000D1DD3C /* GoogleSignInButtonWrapper.swift */; };
-		CEBC17092748DE9700D1DD3C /* GoogleSignInAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC17082748DE9700D1DD3C /* GoogleSignInAuthenticator.swift */; };
 		CEBC170B2748DF4900D1DD3C /* UIApplication+Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC170A2748DF4900D1DD3C /* UIApplication+Window.swift */; };
 		CEBC170D2748E12F00D1DD3C /* GoogleDrivePermissionScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC170C2748E12F00D1DD3C /* GoogleDrivePermissionScope.swift */; };
-		CEBC17102748E44300D1DD3C /* DocumentChangelog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC170F2748E44300D1DD3C /* DocumentChangelog.swift */; };
-		CEBC17142748EAE200D1DD3C /* GoogleDriveAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBC17132748EAE200D1DD3C /* GoogleDriveAPI.m */; };
-		CEC366C72749335500DB492B /* GoogleAPIClientForRESTCore in Frameworks */ = {isa = PBXBuildFile; productRef = CEC366C62749335500DB492B /* GoogleAPIClientForRESTCore */; };
-		CEC366C92749335500DB492B /* GoogleAPIClientForREST_Docs in Frameworks */ = {isa = PBXBuildFile; productRef = CEC366C82749335500DB492B /* GoogleAPIClientForREST_Docs */; };
-		CEC366CB2749335500DB492B /* GoogleAPIClientForREST_Document in Frameworks */ = {isa = PBXBuildFile; productRef = CEC366CA2749335500DB492B /* GoogleAPIClientForREST_Document */; };
-		CEC366CD2749335500DB492B /* GoogleAPIClientForREST_Drive in Frameworks */ = {isa = PBXBuildFile; productRef = CEC366CC2749335500DB492B /* GoogleAPIClientForREST_Drive */; };
-		CEC366CF2749335500DB492B /* GoogleAPIClientForREST_DriveActivity in Frameworks */ = {isa = PBXBuildFile; productRef = CEC366CE2749335500DB492B /* GoogleAPIClientForREST_DriveActivity */; };
+		CEBC17102748E44300D1DD3C /* DocumentChangelogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC170F2748E44300D1DD3C /* DocumentChangelogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,21 +61,24 @@
 		CE3C7BFA27482AA3004CA341 /* Road to HollywoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Road to HollywoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3C7BFE27482AA3004CA341 /* Road_to_HollywoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road_to_HollywoodUITests.swift; sourceTree = "<group>"; };
 		CE3C7C0027482AA3004CA341 /* Road_to_HollywoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road_to_HollywoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CE3C7C1427482B8A004CA341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE45B1AF274B917700F9836F /* DocumentChangeLogRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentChangeLogRepository.swift; sourceTree = "<group>"; };
 		CE45B1B1274B9E2F00F9836F /* DocumentRevisionsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentRevisionsResponse.swift; sourceTree = "<group>"; };
-		CE45B1B9274BABB100F9836F /* DocumentRevisionsResponse+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DocumentRevisionsResponse+Mock.swift"; sourceTree = "<group>"; };
-		CEBC17022748DDE800D1DD3C /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		CE45B1B9274BABB100F9836F /* Model+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+Mock.swift"; sourceTree = "<group>"; };
+		CE45B1BB274BB73700F9836F /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		CE45B1BD274BB82B00F9836F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CE45B1C0274BC0AB00F9836F /* MockAuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthenticationViewModel.swift; sourceTree = "<group>"; };
+		CE45B1C2274BC0BB00F9836F /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
+		CE45B1C4274BC0F600F9836F /* MockDocumentChangeLogRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDocumentChangeLogRepository.swift; sourceTree = "<group>"; };
+		CE45B1C6274BC10900F9836F /* GoogleDriveDocumentChangeLogRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDriveDocumentChangeLogRepository.swift; sourceTree = "<group>"; };
+		CE45B1CA274BC30800F9836F /* DocumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentModel.swift; sourceTree = "<group>"; };
+		CEBC17022748DDE800D1DD3C /* GoogleAuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticationViewModel.swift; sourceTree = "<group>"; };
 		CEBC17042748DE3900D1DD3C /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CEBC17062748DE5000D1DD3C /* GoogleSignInButtonWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInButtonWrapper.swift; sourceTree = "<group>"; };
-		CEBC17082748DE9700D1DD3C /* GoogleSignInAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInAuthenticator.swift; sourceTree = "<group>"; };
 		CEBC170A2748DF4900D1DD3C /* UIApplication+Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Window.swift"; sourceTree = "<group>"; };
 		CEBC170C2748E12F00D1DD3C /* GoogleDrivePermissionScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDrivePermissionScope.swift; sourceTree = "<group>"; };
 		CEBC170E2748E29900D1DD3C /* Road-to-Hollywood-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Road-to-Hollywood-Info.plist"; sourceTree = SOURCE_ROOT; };
-		CEBC170F2748E44300D1DD3C /* DocumentChangelog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentChangelog.swift; sourceTree = "<group>"; };
+		CEBC170F2748E44300D1DD3C /* DocumentChangelogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentChangelogView.swift; sourceTree = "<group>"; };
 		CEBC17112748EAE100D1DD3C /* Road to Hollywood-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Road to Hollywood-Bridging-Header.h"; sourceTree = "<group>"; };
-		CEBC17122748EAE200D1DD3C /* GoogleDriveAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleDriveAPI.h; sourceTree = "<group>"; };
-		CEBC17132748EAE200D1DD3C /* GoogleDriveAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleDriveAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC366CB2749335500DB492B /* GoogleAPIClientForREST_Document in Frameworks */,
-				CEC366CF2749335500DB492B /* GoogleAPIClientForREST_DriveActivity in Frameworks */,
-				CEC366C72749335500DB492B /* GoogleAPIClientForRESTCore in Frameworks */,
 				CE3C7C1827482C21004CA341 /* GoogleSignIn in Frameworks */,
-				CEC366C92749335500DB492B /* GoogleAPIClientForREST_Docs in Frameworks */,
-				CEC366CD2749335500DB492B /* GoogleAPIClientForREST_Drive in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,20 +132,11 @@
 			children = (
 				CEBC170E2748E29900D1DD3C /* Road-to-Hollywood-Info.plist */,
 				CE3C7BE327482AA0004CA341 /* RoadtoHollywoodApp.swift */,
-				CE3C7C1427482B8A004CA341 /* AppDelegate.swift */,
-				CEBC17022748DDE800D1DD3C /* AuthenticationViewModel.swift */,
-				CE45B1AF274B917700F9836F /* DocumentChangeLogRepository.swift */,
-				CE45B1B1274B9E2F00F9836F /* DocumentRevisionsResponse.swift */,
-				CE45B1B9274BABB100F9836F /* DocumentRevisionsResponse+Mock.swift */,
-				CE3C7BE527482AA0004CA341 /* ContentView.swift */,
-				CEBC170F2748E44300D1DD3C /* DocumentChangelog.swift */,
-				CEBC17122748EAE200D1DD3C /* GoogleDriveAPI.h */,
-				CEBC17132748EAE200D1DD3C /* GoogleDriveAPI.m */,
-				CEBC170C2748E12F00D1DD3C /* GoogleDrivePermissionScope.swift */,
-				CEBC17042748DE3900D1DD3C /* SignInView.swift */,
-				CEBC17082748DE9700D1DD3C /* GoogleSignInAuthenticator.swift */,
-				CEBC170A2748DF4900D1DD3C /* UIApplication+Window.swift */,
-				CEBC17062748DE5000D1DD3C /* GoogleSignInButtonWrapper.swift */,
+				CE45B1BF274BC09D00F9836F /* ViewModels */,
+				CE45B1C8274BC11700F9836F /* DocumentChangeLogRepository */,
+				CE45B1C9274BC29400F9836F /* Models */,
+				CE45B1CD274BC3CF00F9836F /* Views */,
+				CE45B1CC274BC3C100F9836F /* Extensions */,
 				CE3C7BE727482AA3004CA341 /* Assets.xcassets */,
 				CE3C7BE927482AA3004CA341 /* Preview Content */,
 				CEBC17112748EAE100D1DD3C /* Road to Hollywood-Bridging-Header.h */,
@@ -181,6 +169,58 @@
 			path = "Road to HollywoodUITests";
 			sourceTree = "<group>";
 		};
+		CE45B1BF274BC09D00F9836F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE45B1C2274BC0BB00F9836F /* DependencyInjection.swift */,
+				CE45B1BB274BB73700F9836F /* AuthenticationViewModel.swift */,
+				CEBC17022748DDE800D1DD3C /* GoogleAuthenticationViewModel.swift */,
+				CE45B1C0274BC0AB00F9836F /* MockAuthenticationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE45B1C8274BC11700F9836F /* DocumentChangeLogRepository */ = {
+			isa = PBXGroup;
+			children = (
+				CE45B1AF274B917700F9836F /* DocumentChangeLogRepository.swift */,
+				CE45B1C6274BC10900F9836F /* GoogleDriveDocumentChangeLogRepository.swift */,
+				CE45B1C4274BC0F600F9836F /* MockDocumentChangeLogRepository.swift */,
+			);
+			path = DocumentChangeLogRepository;
+			sourceTree = "<group>";
+		};
+		CE45B1C9274BC29400F9836F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEBC170C2748E12F00D1DD3C /* GoogleDrivePermissionScope.swift */,
+				CE45B1B1274B9E2F00F9836F /* DocumentRevisionsResponse.swift */,
+				CE45B1BD274BB82B00F9836F /* UserModel.swift */,
+				CE45B1CA274BC30800F9836F /* DocumentModel.swift */,
+				CE45B1B9274BABB100F9836F /* Model+Mock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE45B1CC274BC3C100F9836F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEBC170A2748DF4900D1DD3C /* UIApplication+Window.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE45B1CD274BC3CF00F9836F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C7BE527482AA0004CA341 /* ContentView.swift */,
+				CEBC170F2748E44300D1DD3C /* DocumentChangelogView.swift */,
+				CEBC17042748DE3900D1DD3C /* SignInView.swift */,
+				CEBC17062748DE5000D1DD3C /* GoogleSignInButtonWrapper.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,11 +239,6 @@
 			name = "Road to Hollywood";
 			packageProductDependencies = (
 				CE3C7C1727482C21004CA341 /* GoogleSignIn */,
-				CEC366C62749335500DB492B /* GoogleAPIClientForRESTCore */,
-				CEC366C82749335500DB492B /* GoogleAPIClientForREST_Docs */,
-				CEC366CA2749335500DB492B /* GoogleAPIClientForREST_Document */,
-				CEC366CC2749335500DB492B /* GoogleAPIClientForREST_Drive */,
-				CEC366CE2749335500DB492B /* GoogleAPIClientForREST_DriveActivity */,
 			);
 			productName = "Road to Hollywood";
 			productReference = CE3C7BE027482AA0004CA341 /* Road to Hollywood.app */;
@@ -280,7 +315,6 @@
 			mainGroup = CE3C7BD727482AA0004CA341;
 			packageReferences = (
 				CE3C7C1627482C21004CA341 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
-				CEC366C52749335500DB492B /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
 			);
 			productRefGroup = CE3C7BE127482AA0004CA341 /* Products */;
 			projectDirPath = "";
@@ -324,16 +358,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE45B1C7274BC10900F9836F /* GoogleDriveDocumentChangeLogRepository.swift in Sources */,
+				CE45B1C1274BC0AB00F9836F /* MockAuthenticationViewModel.swift in Sources */,
+				CE45B1C5274BC0F600F9836F /* MockDocumentChangeLogRepository.swift in Sources */,
+				CE45B1BC274BB73700F9836F /* AuthenticationViewModel.swift in Sources */,
+				CE45B1C3274BC0BB00F9836F /* DependencyInjection.swift in Sources */,
 				CEBC17072748DE5000D1DD3C /* GoogleSignInButtonWrapper.swift in Sources */,
-				CEBC17032748DDE800D1DD3C /* AuthenticationViewModel.swift in Sources */,
+				CEBC17032748DDE800D1DD3C /* GoogleAuthenticationViewModel.swift in Sources */,
+				CE45B1CB274BC30800F9836F /* DocumentModel.swift in Sources */,
 				CEBC170D2748E12F00D1DD3C /* GoogleDrivePermissionScope.swift in Sources */,
-				CEBC17102748E44300D1DD3C /* DocumentChangelog.swift in Sources */,
+				CEBC17102748E44300D1DD3C /* DocumentChangelogView.swift in Sources */,
 				CEBC170B2748DF4900D1DD3C /* UIApplication+Window.swift in Sources */,
-				CEBC17142748EAE200D1DD3C /* GoogleDriveAPI.m in Sources */,
-				CE3C7C1527482B8A004CA341 /* AppDelegate.swift in Sources */,
-				CE45B1BA274BABB100F9836F /* DocumentRevisionsResponse+Mock.swift in Sources */,
+				CE45B1BA274BABB100F9836F /* Model+Mock.swift in Sources */,
 				CE3C7BE627482AA0004CA341 /* ContentView.swift in Sources */,
-				CEBC17092748DE9700D1DD3C /* GoogleSignInAuthenticator.swift in Sources */,
+				CE45B1BE274BB82B00F9836F /* UserModel.swift in Sources */,
 				CE45B1B0274B917700F9836F /* DocumentChangeLogRepository.swift in Sources */,
 				CE3C7BE427482AA0004CA341 /* RoadtoHollywoodApp.swift in Sources */,
 				CE45B1B2274B9E2F00F9836F /* DocumentRevisionsResponse.swift in Sources */,
@@ -701,14 +739,6 @@
 				minimumVersion = 6.0.0;
 			};
 		};
-		CEC366C52749335500DB492B /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/woxtu/google-api-objectivec-client-for-rest.git";
-			requirement = {
-				branch = "fix-spm";
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -716,31 +746,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CE3C7C1627482C21004CA341 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignIn;
-		};
-		CEC366C62749335500DB492B /* GoogleAPIClientForRESTCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEC366C52749335500DB492B /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
-			productName = GoogleAPIClientForRESTCore;
-		};
-		CEC366C82749335500DB492B /* GoogleAPIClientForREST_Docs */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEC366C52749335500DB492B /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
-			productName = GoogleAPIClientForREST_Docs;
-		};
-		CEC366CA2749335500DB492B /* GoogleAPIClientForREST_Document */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEC366C52749335500DB492B /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
-			productName = GoogleAPIClientForREST_Document;
-		};
-		CEC366CC2749335500DB492B /* GoogleAPIClientForREST_Drive */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEC366C52749335500DB492B /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
-			productName = GoogleAPIClientForREST_Drive;
-		};
-		CEC366CE2749335500DB492B /* GoogleAPIClientForREST_DriveActivity */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CEC366C52749335500DB492B /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
-			productName = GoogleAPIClientForREST_DriveActivity;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

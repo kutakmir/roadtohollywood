@@ -32,9 +32,13 @@ extension DocumentSummaryActivitiesResponse {
 }
 
 extension Actor {
-    static let jorgeDelafuente = Actor(id: "1", personName: "Jorge Delafuente", email: "jorge.delafuente@hollywood.com")
+    static let jorgeDelafuente = Actor(id: "1", name: "Jorge Delafuente", email: "jorge.delafuente@hollywood.com")
 }
 
 enum MockDocumentActivitiesError: Error {
     case mock
+}
+
+extension DocumentModel {
+    static let mock = DocumentModel(id: "01349514-345o238450", url: URL(string: "https://www.google.com")!, name: "Road to Hollywood")
 }

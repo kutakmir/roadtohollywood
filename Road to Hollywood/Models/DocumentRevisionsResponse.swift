@@ -62,13 +62,13 @@ enum DocumentChangeActionType: String, Codable {
 // Unlike G-Drive, we can use a flat struct here
 struct Actor: Codable, Identifiable {
     let id: String
-    let personName: String?
+    let name: String?
     let email: String?
 }
 
 extension Actor: CustomStringConvertible {
     var description: String {
-        personName ?? email ?? id
+        name ?? email ?? id
     }
 }
 

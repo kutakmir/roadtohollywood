@@ -11,15 +11,6 @@
         }
       },
       {
-        "package": "GoogleAPIClientForREST",
-        "repositoryURL": "https://github.com/woxtu/google-api-objectivec-client-for-rest.git",
-        "state": {
-          "branch": "fix-spm",
-          "revision": "3764dff839ff6a1ddc8000842b858bed398b15b6",
-          "version": null
-        }
-      },
-      {
         "package": "GoogleSignIn",
         "repositoryURL": "https://github.com/google/GoogleSignIn-iOS",
         "state": {
