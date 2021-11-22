@@ -24,16 +24,6 @@ class MockDocumentActivityRepository: DocumentActivityRepository {
         }
     }
 
-    func getDocumentActivity(document: DocumentModel, completion: @escaping (Result<DocumentActivitiesResponse, Error>) -> Void) {
-        performInAWhile {
-            if self.responseShouldSucceed {
-                completion(.success(.mock))
-            } else {
-                completion(.failure(MockDocumentActivitiesError.mock))
-            }
-        }
-    }
-
     private func performInAWhile(_ completion: @escaping () -> Void) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: completion)
     }
