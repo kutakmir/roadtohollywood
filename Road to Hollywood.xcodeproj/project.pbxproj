@@ -119,6 +119,7 @@
 		CE3C7BD727482AA0004CA341 = {
 			isa = PBXGroup;
 			children = (
+				CE45B1DA274BEA1C00F9836F /* README.md */,
 				CE3C7BE227482AA0004CA341 /* Road to Hollywood */,
 				CE3C7BF327482AA3004CA341 /* Road to HollywoodTests */,
 				CE3C7BFD27482AA3004CA341 /* Road to HollywoodUITests */,
@@ -140,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				CEBC170E2748E29900D1DD3C /* Road-to-Hollywood-Info.plist */,
-				CE45B1DA274BEA1C00F9836F /* README.md */,
 				CE3C7BE327482AA0004CA341 /* RoadtoHollywoodApp.swift */,
 				CE45B1C2274BC0BB00F9836F /* DependencyInjectionContainer.swift */,
 				CE45B1D7274BE06D00F9836F /* Controllers */,
