@@ -14,16 +14,6 @@ class MockDocumentActivityRepository: DocumentActivityRepository {
 
     required init() {}
 
-    func getDocumentSummaryActivity(document: DocumentModel, completion: @escaping (Result<DocumentSummaryActivitiesResponse, Error>) -> Void) {
-        performInAWhile {
-            if self.responseShouldSucceed {
-                completion(.success(.mock))
-            } else {
-                completion(.failure(MockDocumentActivitiesError.mock))
-            }
-        }
-    }
-
     func getDocumentActivity(document: DocumentModel, completion: @escaping (Result<DocumentActivitiesResponse, Error>) -> Void) {
         performInAWhile {
             if self.responseShouldSucceed {

@@ -27,7 +27,6 @@
 		CE45B1CB274BC30800F9836F /* DocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1CA274BC30800F9836F /* DocumentModel.swift */; };
 		CE45B1D1274BDDFE00F9836F /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1D0274BDDFE00F9836F /* Resource.swift */; };
 		CE45B1D3274BDE6D00F9836F /* DocumentActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1D2274BDE6D00F9836F /* DocumentActivityViewModel.swift */; };
-		CE45B1D5274BDE8300F9836F /* DocumentSummaryActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1D4274BDE8300F9836F /* DocumentSummaryActivityViewModel.swift */; };
 		CE45B1D9274BE24E00F9836F /* DocumentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1D8274BE24E00F9836F /* DocumentDetailView.swift */; };
 		CEBC17032748DDE800D1DD3C /* GoogleAuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC17022748DDE800D1DD3C /* GoogleAuthenticationController.swift */; };
 		CEBC17052748DE3900D1DD3C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC17042748DE3900D1DD3C /* SignInView.swift */; };
@@ -77,7 +76,6 @@
 		CE45B1CA274BC30800F9836F /* DocumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentModel.swift; sourceTree = "<group>"; };
 		CE45B1D0274BDDFE00F9836F /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		CE45B1D2274BDE6D00F9836F /* DocumentActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentActivityViewModel.swift; sourceTree = "<group>"; };
-		CE45B1D4274BDE8300F9836F /* DocumentSummaryActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSummaryActivityViewModel.swift; sourceTree = "<group>"; };
 		CE45B1D8274BE24E00F9836F /* DocumentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDetailView.swift; sourceTree = "<group>"; };
 		CE45B1DA274BEA1C00F9836F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CEBC17022748DDE800D1DD3C /* GoogleAuthenticationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticationController.swift; sourceTree = "<group>"; };
@@ -185,7 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				CE45B1D2274BDE6D00F9836F /* DocumentActivityViewModel.swift */,
-				CE45B1D4274BDE8300F9836F /* DocumentSummaryActivityViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -399,7 +396,6 @@
 				CE45B1BE274BB82B00F9836F /* UserModel.swift in Sources */,
 				CE45B1B0274B917700F9836F /* DocumentActivityRepository.swift in Sources */,
 				CE3C7BE427482AA0004CA341 /* RoadtoHollywoodApp.swift in Sources */,
-				CE45B1D5274BDE8300F9836F /* DocumentSummaryActivityViewModel.swift in Sources */,
 				CE45B1B2274B9E2F00F9836F /* DocumentRevisionsResponse.swift in Sources */,
 				CEBC17052748DE3900D1DD3C /* SignInView.swift in Sources */,
 			);
