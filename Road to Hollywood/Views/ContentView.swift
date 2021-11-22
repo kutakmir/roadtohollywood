@@ -16,8 +16,8 @@ struct ContentView: View {
             NavigationView {
                 switch diContainer.state {
                 case .signedIn:
-                    DocumentChangeLogView(viewModel: DocumentChangeLogViewModel(document: .mock, repository: diContainer.documentChangeLogRepository))
-                        .navigationTitle("User Profile")
+                    DocumentDetailView()
+                        .navigationTitle("Document Activity")
                 case .signedOut:
                     SignInView()
                         .navigationTitle("Sign-in with Google")

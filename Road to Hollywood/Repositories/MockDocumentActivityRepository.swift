@@ -7,10 +7,14 @@
 
 import Foundation
 
-class MockDocumentChangeLogRepository: DocumentChangeLogRepository {
+class MockDocumentActivityRepository: DocumentActivityRepository {
+
+    // For unit testing purposes
     var responseShouldSucceed: Bool = true
 
-    func getDocumentSummaryRevisions(document: DocumentModel, completion: @escaping (Result<DocumentSummaryActivitiesResponse, Error>) -> Void) {
+    required init() {}
+
+    func getDocumentSummaryActivity(document: DocumentModel, completion: @escaping (Result<DocumentSummaryActivitiesResponse, Error>) -> Void) {
         performInAWhile {
             if self.responseShouldSucceed {
                 completion(.success(.mock))
@@ -20,7 +24,7 @@ class MockDocumentChangeLogRepository: DocumentChangeLogRepository {
         }
     }
 
-    func getDocumentRevisions(document: DocumentModel, completion: @escaping (Result<DocumentActivitiesResponse, Error>) -> Void) {
+    func getDocumentActivity(document: DocumentModel, completion: @escaping (Result<DocumentActivitiesResponse, Error>) -> Void) {
         performInAWhile {
             if self.responseShouldSucceed {
                 completion(.success(.mock))

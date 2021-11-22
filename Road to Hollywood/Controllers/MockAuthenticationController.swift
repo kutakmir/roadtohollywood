@@ -1,5 +1,5 @@
 //
-//  MockAuthenticationViewModel.swift
+//  MockAuthenticationController.swift
 //  Road to Hollywood
 //
 //  Created by Miroslav Kutak on 22/11/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class MockAuthenticationViewModel: AuthenticationViewModel {
+class MockAuthenticationController: AuthenticationController {
 
     var state: Binding<AuthenticationState>
 

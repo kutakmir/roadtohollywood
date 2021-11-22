@@ -45,6 +45,15 @@ struct DocumentActivity: Codable, Identifiable {
     let action: ActionDescription
 }
 
+extension DocumentActivity: CustomStringConvertible {
+    var description: String {
+    """
+        Id: \(id), CreatedBy: \(self.actor.email ?? ""), CreationTime: \(timestamp)
+        Player: \(self.actor.name ?? "")      Changes: \(action.description)
+    """
+    }
+}
+
 // There is a complex structure of the G-Drive changes response
 // That's understandible, but for our purposes, the decoupled interface doesn't need to redefine the whole structure
 // Reference: https://developers.google.com/drive/activity/v2/reference/rest/v2/activity/actiondetail#ActionDetail

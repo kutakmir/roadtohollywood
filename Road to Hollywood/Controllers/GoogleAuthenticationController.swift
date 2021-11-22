@@ -18,7 +18,7 @@ import SwiftUI
 import GoogleSignIn
 
 /// A class conforming to `ObservableObject` used to represent a user's authentication status.
-final class GoogleAuthenticationViewModel: ObservableObject, AuthenticationViewModel {
+final class GoogleAuthenticationController: ObservableObject, AuthenticationController {
     /// The user's log in status.
     /// - note: This will publish updates when its value changes.
     var state: Binding<AuthenticationState>
@@ -65,7 +65,7 @@ final class GoogleAuthenticationViewModel: ObservableObject, AuthenticationViewM
     }()
 
     /// Signs in the user based upon the selected account.'
-    /// - note: Successful calls to this will set the `authViewModel`'s `state` property.
+    /// - note: Successful calls to this will set the `authController`'s `state` property.
     func signIn() {
 
         guard let rootViewController = UIApplication.shared.keyWindow?.rootViewController else {
@@ -91,7 +91,7 @@ final class GoogleAuthenticationViewModel: ObservableObject, AuthenticationViewM
     /// Adds the birthday read scope for the current user.
     /// - parameter completion: An escaping closure that is called upon successful completion of the
     /// `addScopes(_:presenting:)` request.
-    /// - note: Successful requests will update the `authViewModel.state` with a new current user that
+    /// - note: Successful requests will update the `authController.state` with a new current user that
     /// has the granted scope.
     func addBirthdayReadScope(completion: @escaping () -> Void) {
         guard let rootViewController = UIApplication.shared.keyWindow?.rootViewController else {

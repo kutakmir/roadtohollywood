@@ -16,7 +16,7 @@ enum AuthenticationState {
     case signedOut
 }
 
-protocol AuthenticationViewModel {
+protocol AuthenticationController {
     init(state: Binding<AuthenticationState>)
     func signIn()
     func disconnect()
