@@ -13,8 +13,4 @@ class GoogleDriveDocumentActivityRepository: DocumentActivityRepository {
     func getDocumentSummaryActivity(document: DocumentModel, completion: @escaping (Result<DocumentSummaryActivitiesResponse, Error>) -> Void) {
         // FIXME: missing implementation
     }
-
-    func getDocumentActivity(document: DocumentModel, completion: @escaping (Result<DocumentActivitiesResponse, Error>) -> Void) {
-        // FIXME: missing implementation
-    }
 }

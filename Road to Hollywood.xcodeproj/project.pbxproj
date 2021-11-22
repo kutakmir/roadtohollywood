@@ -26,7 +26,6 @@
 		CE45B1C7274BC10900F9836F /* GoogleDriveDocumentActivityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1C6274BC10900F9836F /* GoogleDriveDocumentActivityRepository.swift */; };
 		CE45B1CB274BC30800F9836F /* DocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1CA274BC30800F9836F /* DocumentModel.swift */; };
 		CE45B1D1274BDDFE00F9836F /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1D0274BDDFE00F9836F /* Resource.swift */; };
-		CE45B1D3274BDE6D00F9836F /* DocumentActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1D2274BDE6D00F9836F /* DocumentActivityViewModel.swift */; };
 		CE45B1D5274BDE8300F9836F /* DocumentSummaryActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1D4274BDE8300F9836F /* DocumentSummaryActivityViewModel.swift */; };
 		CE45B1D9274BE24E00F9836F /* DocumentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45B1D8274BE24E00F9836F /* DocumentDetailView.swift */; };
 		CEBC17032748DDE800D1DD3C /* GoogleAuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC17022748DDE800D1DD3C /* GoogleAuthenticationController.swift */; };
@@ -76,7 +75,6 @@
 		CE45B1C6274BC10900F9836F /* GoogleDriveDocumentActivityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDriveDocumentActivityRepository.swift; sourceTree = "<group>"; };
 		CE45B1CA274BC30800F9836F /* DocumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentModel.swift; sourceTree = "<group>"; };
 		CE45B1D0274BDDFE00F9836F /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
-		CE45B1D2274BDE6D00F9836F /* DocumentActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentActivityViewModel.swift; sourceTree = "<group>"; };
 		CE45B1D4274BDE8300F9836F /* DocumentSummaryActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSummaryActivityViewModel.swift; sourceTree = "<group>"; };
 		CE45B1D8274BE24E00F9836F /* DocumentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDetailView.swift; sourceTree = "<group>"; };
 		CE45B1DA274BEA1C00F9836F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -184,7 +182,6 @@
 		CE45B1BF274BC09D00F9836F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				CE45B1D2274BDE6D00F9836F /* DocumentActivityViewModel.swift */,
 				CE45B1D4274BDE8300F9836F /* DocumentSummaryActivityViewModel.swift */,
 			);
 			path = ViewModels;
@@ -382,7 +379,6 @@
 			files = (
 				CE45B1C7274BC10900F9836F /* GoogleDriveDocumentActivityRepository.swift in Sources */,
 				CE45B1C1274BC0AB00F9836F /* MockAuthenticationController.swift in Sources */,
-				CE45B1D3274BDE6D00F9836F /* DocumentActivityViewModel.swift in Sources */,
 				CE45B1C5274BC0F600F9836F /* MockDocumentActivityRepository.swift in Sources */,
 				CE45B1D9274BE24E00F9836F /* DocumentDetailView.swift in Sources */,
 				CE45B1BC274BB73700F9836F /* AuthenticationController.swift in Sources */,
